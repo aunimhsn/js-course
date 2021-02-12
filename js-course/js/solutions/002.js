@@ -6,3 +6,9 @@ let b = '4';
  * --
  * 
  */
+
+function addition(a, b) {
+    return parseInt(a) + parseInt(b);
+}
+
+console.log(addition(a, b));
