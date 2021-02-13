@@ -9,8 +9,8 @@ let fruit = 'apple';
 
 /**
  * Please write a function returning the color of the fruit. 
- * --
- * 
+ * -- 
+ *  
  */
 
 function getFruitColor(fruit, fruits) {
