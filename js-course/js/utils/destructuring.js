@@ -1,9 +1,14 @@
-// Destructuring
-
-// Without destructuring
+// Array
 const person = ['John', 'Doe'];
-const firstName = person[0];
-const lastName = person[1];
+const [firstName, lastName] = person;
 
-// With destructuring
-const[firstName, lastName] = person;
+// Object
+const car = {
+    brand: 'Toyota',
+    model: 'Break',
+    color: 'Black'
+}
+
+const { color } = car;
+
+console.log(color); // Black
