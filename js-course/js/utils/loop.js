@@ -26,9 +26,14 @@ for (let fruit of fruits) {
 }
 
 /**
- * .forEach
+ * .forEach()
  * 
  */
 fruits.forEach((fruit, index) => {
     console.log(`${index}: ${fruit}`);
 });
+
+/**
+ * .map()
+ * 
+ */
