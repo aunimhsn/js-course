@@ -5,10 +5,22 @@ let fruits = [
     ['strawberry', 'red'],
 ];
 
-let fruit = 'apple';
+let fruitName = 'apple';
 
 /**
  * Please write a function returning the color of the fruit. 
  * --
  * 
  */
+function getFruitColor(fruits, fruitName) {
+
+    let color;
+
+    fruits.forEach(fruit => {
+        // Votre code...
+    });
+
+    return color;
+}
+
+console.log(getFruitColor());

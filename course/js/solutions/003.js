@@ -48,5 +48,5 @@ const people =  [
 
 console.log(people[2].lastName);
 console.log(people[1].address.city);
-console.log(people[0].hobbies[1], people[0].hobbies[2]);
+console.log(people[0].hobbies.reverse()[0], people[0].hobbies[2].reverse()[1]);
 people.forEach(person => console.log(person.job));

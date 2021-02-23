@@ -21,10 +21,11 @@ function getFruitColor(fruitName, fruits) {
 
         if (fruitName === fruit[0]) {
             result = fruit[1];
-        }
+        } 
     });
 
     return result;
  }
 
  console.log(getFruitColor(fruitName, fruits));
+
