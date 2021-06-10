@@ -1,11 +1,8 @@
-	
-fetch('https://api.kanye.rest', { method: 'POST', credentials: ''  })
-    .then(response => response.json())
-    .then(data => console.log(data));
+/**
+ * Please write a function which take an array of integers as parameter 
+ * and double only the even values.
+ * -- 
+ *  
+ */
 
-// Http verbs
-// GET
-// POST
-// PUT
-// PATCH
-// DELETE
+ let numbers = [8, 9, 13, 2, 87, 36]; // [16, 9, 13, 4, 87, 72]
